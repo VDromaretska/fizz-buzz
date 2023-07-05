@@ -15,7 +15,7 @@ export default function Main(): JSX.Element {
     <div>
       <h2>Manipulate the counter below to see how Fizz Buzz works!</h2>
       <p>Counter:{counter}</p>
-      <button onClick={handleAddOne}>+1</button>
+      <button onClick={handleAddOne}>Next</button>
       <hr />
       <button onClick={handleReset}>Reset the counter</button>
 
